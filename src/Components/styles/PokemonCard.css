@@ -1,0 +1,40 @@
+/* PokemonCard.css */
+
+.pokemon-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px); /* Lift card on hover */
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.pokemon-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.more-info-button {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.more-info-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,77 @@
+/* Card.css */
+
+body {
+  background: linear-gradient(135deg, #b3e5fc, #c5e1a5); /* Gradient from light blue to light green */
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+.main {
+  width: 100%;
+  margin-top:5rem;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+h1{
+  margin-top: 6rem;
+}
+
+.pokemon-cards-container {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.loading-spinner {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better visibility */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for depth */
+}
